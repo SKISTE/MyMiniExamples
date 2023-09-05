@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/2048.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="debug">dsfs</div>
+    <h1>2048 by SKISTE</h1>
+    <div class="control_panel">
+        <button onclick="start_game()">Play</button>
+        <button onclick="restart_game(true)">Clear</button>
+    </div>
+    <div class="grid">
+        <!-- blok LINE_NUMBER -->
+        <div id="blok1_1" data-pos="0,0" class="line"></div>
+        <div id="blok1_2" data-pos="0,1" class="line"></div>
+        <div id="blok1_3" data-pos="0,2" class="line"></div>
+        <div id="blok1_4" data-pos="0,3" class="line"></div>
+        <div id="blok2_1" data-pos="1,0" class="line"></div>
+        <div id="blok2_2" data-pos="1,1" class="line"></div>
+        <div id="blok2_3" data-pos="1,2" class="line"></div>
+        <div id="blok2_4" data-pos="1,3" class="line"></div>
+        <div id="blok3_1" data-pos="2,0" class="line"></div>
+        <div id="blok3_2" data-pos="2,1" class="line"></div>
+        <div id="blok3_3" data-pos="2,2" class="line"></div>
+        <div id="blok3_4" data-pos="2,3" class="line"></div>
+        <div id="blok4_1" data-pos="3,0" class="line"></div>
+        <div id="blok4_2" data-pos="3,1" class="line"></div>
+        <div id="blok4_3" data-pos="3,2" class="line"></div>
+        <div id="blok4_4" data-pos="3,3" class="line"></div>
+    </div>
+    <script src="../js/2048.js"></script>
+</body>
+</html>
